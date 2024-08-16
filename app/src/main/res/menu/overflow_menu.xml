@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/registrar"
+        android:title="@string/name_form" />
+    <item
+        android:id="@+id/consultar"
+        android:title="@string/name_consult" />
+    <item
+        android:id="@+id/salir"
+        android:title="@string/name_logout" />
+</menu>

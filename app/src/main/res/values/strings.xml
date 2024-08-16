@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FerreMarket</string>
+    <string name="name_form">Formulario</string>
+    <string name="name_consult">Consultar</string>
+    <string name="name_logout">Cerrar Sesion</string>
+    <string name="description">FerreMarket es una ferretería moderna y completa que se especializa en ofrecer una amplia gama de productos y herramientas para todo tipo de proyectos de construcción, reparación y mantenimiento. Desde artículos básicos como clavos, tornillos y adhesivos, hasta herramientas eléctricas y manuales de alta calidad, FerreMarket se posiciona como un lugar ideal tanto para profesionales del sector de la construcción como para aficionados al bricolaje.</string>
+</resources>

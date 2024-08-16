@@ -1,0 +1,100 @@
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/textoTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FF9100"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <EditText
+                android:id="@+id/entradaTexto"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginEnd="16dp"
+                android:hint="Ingrese correo electrónico"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textoTitulo"
+                app:layout_constraintVertical_bias="0.077" />
+
+            <EditText
+                android:id="@+id/campoTexto"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="88dp"
+                android:layout_marginEnd="16dp"
+                android:hint="Ingrese contraseña"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/entradaTexto" />
+
+                <Button
+                    android:id="@+id/botonIngresar"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="104dp"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="#FF9100"
+                    android:text="Ingresar"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/campoTexto"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                android:id="@+id/botonSalir"
+                android:layout_width="0dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#FF9100"
+                android:text="Salir"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/botonIngresar"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="148dp"
+                android:layout_height="128dp"
+                android:src="@drawable/baseline_hardware_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.471"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.116" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
